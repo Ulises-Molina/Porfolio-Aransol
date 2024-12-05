@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,3 +49,8 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# Porfolio-Aransol
+Porfolio Artistico desarrollado siguiendo un diseño en Figma-
+Utilice React+Vite, Tailwind y Framer Motion
+>>>>>>> ee23af1ea48ca1766427d065208ceb2e017c977d
