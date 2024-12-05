@@ -16,7 +16,7 @@ export const App: React.FC = () => {
             </section>
             <div className="flex justify-between pt-8 text-white px-16 text-xl font-light">
                 <a href="#first" className="relative group text-white hover:opacity-85 opacity-50 transition-all duration-500">
-                    TEMORFOLOGIA DEL SER
+                    MORFOLOGIA DEL SER
                     <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all duration-500 group-hover:w-full"></span>
                 </a>
                 <a href="#second" className="relative group text-white hover:opacity-85 opacity-50 transition-all duration-500">
