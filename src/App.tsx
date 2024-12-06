@@ -66,13 +66,15 @@ export const App: React.FC = () => {
         <motion.div 
         whileHover={{ scale: 1.1, backgroundColor: '#3d3d3d' }}
         whileTap={{ scale: 0.6 }}
-        className="sticky bottom-28 left-20 flex h-16 w-16 justify-center items-center text-white cursor-pointer border rounded-full"
+        drag
+        dragConstraints={{ top: -50, left: 0, right: 250, bottom: 0 }}
+        className="sticky bottom-40 left-20 flex h-24 w-24 justify-center items-center text-white cursor-pointer border rounded-full"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <KeyboardArrowUp fontSize="large"></KeyboardArrowUp>
             </motion.div>
         </div>
-        <footer className="bg-neutral-950 h-20 flex justify-center items-center min-w-[560px]">
-            <h3 className="text-white opacity-50">Hecho por Ulises Molina © {currentYear}</h3>
+        <footer className="bg-neutral-950 h-36 flex justify-center items-center min-w-[560px]">
+            <h3 className="text-white opacity-50 text-2xl">Hecho por Ulises Molina © {currentYear}</h3>
         </footer>
         </>
     )
