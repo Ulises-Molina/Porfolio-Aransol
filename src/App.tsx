@@ -68,7 +68,7 @@ export const App: React.FC = () => {
         whileTap={{ scale: 0.6 }}
         drag
         dragConstraints={{ top: -50, left: 0, right: 250, bottom: 0 }}
-        className="sticky bottom-40 left-20 flex h-18 w-18 justify-center items-center text-white cursor-pointer border rounded-full"
+        className="sticky bottom-40 left-20 flex h-16 w-16 justify-center items-center text-white cursor-pointer border rounded-full"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <KeyboardArrowUp fontSize="large"></KeyboardArrowUp>
             </motion.div>
