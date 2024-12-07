@@ -10,11 +10,11 @@ export const App: React.FC = () => {
             <section className="bg-red h-[80vh] w-screen flex flex-col justify-center items-center animate-fadeIn delay-500 min-w-full">
                 <img src="/home.png" alt="imagen portada" className="w-full h-full opacity-0 animate-fadeInImage delay-500"></img>
                 <div className="pt-8 opacity-0 animate-slideInUp delay-700">
-                    <h1 className="text-white text-8xl mt-6 font-light">PORFOLIO</h1>
-                    <h1 className="text-white text-5xl mt-4 font-light">MARISOL ARANCIBIA</h1>
+                    <h1 className="text-white text-7xl mt-6 font-light">PORFOLIO</h1>
+                    <h1 className="text-white text-4xl mt-4 font-light">MARISOL ARANCIBIA</h1>
                 </div>
             </section>
-            <div className="hidden lg:flex justify-between items-center gap-5 pt-8 text-white px-16 text-3xl font-light">
+            <div className="hidden lg:flex justify-between items-center gap-5 pt-8 text-white px-16 text-2xl font-light">
                 <a href="#first" className="relative group text-white hover:opacity-85 opacity-50 transition-all duration-500">
                     MORFOLOGIA DEL SER
                     <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all duration-500 group-hover:w-full"></span>
